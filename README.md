@@ -13,8 +13,9 @@ This will not run if Windows is being shut down/crashing while SolidWorks is run
 
 
 ## Usage:
-Double-click the VBScript file to run it.
-It will prompt for the main SOLIDWORKS Corp installation folder. Navigate there via the File Explorer, and copy/paste it from the address bar.
+1. Double-click the VBScript file to run it.
+    - It will prompt for the main SOLIDWORKS Corp installation folder.
+2. Navigate there via the File Explorer, and copy/paste it from the address bar.
 
 - Edit pollSeconds and windowDelay in SWActivationWatcher.ps1 if on a slow computer or if you want to speed up the process (then reboot).
 - The automation works by 'pressing' the button with the text "Next >" in the 'SOLIDWORKS Activation Wizard'. To make the script work in your language, ctrl+f replace "Next" with the word on the same button in your language.
