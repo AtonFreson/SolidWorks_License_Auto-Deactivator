@@ -16,7 +16,7 @@ The Wizard will be left on the **"Deactivation Successful"** page afterwards, so
 2. Double-click the VBScript file to run it.
     - Accept any admin privilege requests, etc. 
     - It will prompt for the main SOLIDWORKS Corp installation folder.
-3. Navigate to the *SOLIDWORKS Corp* folder via the *File Explorer*, and *copy/paste* from the address bar.
+3. Navigate to the *"SOLIDWORKS Corp"* folder via the *File Explorer*, and *copy/paste* from the address bar.
     - The default folder is: `C:\Program Files\SOLIDWORKS Corp`
 
 ### Additional information:
