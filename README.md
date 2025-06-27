@@ -21,5 +21,5 @@ This will not run if Windows is being shut down/crashing while SolidWorks is run
 Changes while running the script are possible. Do this by editing *\<SOLIDWORKS Corp\>/Scripts/SWActivationWatcher.ps1*. Edits take effect after a PC reboot.
 - Change *pollSeconds* and *windowDelay* if on a slow computer or if you want to speed up the process.
 - To make the script work in your language, *ctrl+f* replace *"Next >"* with what's written on the same button in your language.
- - The automation works by 'pressing' the button with the text *"Next >"* in the 'SOLIDWORKS Product Activation' Wizard. 
+    - The automation works by 'pressing' the button with the text *"Next >"* in the 'SOLIDWORKS Product Activation' Wizard. 
 ![Image of what button that has "Next" written on it in the English language SolidWorks.](https://i.imgur.com/KPhdSvo.png)
