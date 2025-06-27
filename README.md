@@ -13,7 +13,7 @@ This will not run if Windows is being shut down/crashing while SolidWorks is run
 
 
 ## Usage:
-1. Click on the .vbs script in https://github.com/AtonFreson/SolidWorks_License_Auto-Deactivator/releases/tag/release to download it.
+1. Click on the VBScript file (*ends with .vbs*) in https://github.com/AtonFreson/SolidWorks_License_Auto-Deactivator/releases/tag/release to download it.
 2. Double-click the VBScript file to run it.
     - It will prompt for the main SOLIDWORKS Corp installation folder.
 3. Navigate to the SOLIDWORKS Corp folder via the File Explorer, and copy/paste from the address bar.
