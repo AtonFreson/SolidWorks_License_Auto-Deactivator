@@ -12,7 +12,7 @@ The Wizard will be left on the **"Deactivation Successful"** page afterwards, so
 
 
 ## Usage:
-1. Click on the VBScript file (*ends with .vbs*) in https://github.com/AtonFreson/SolidWorks_License_Auto-Deactivator/releases/tag/release to download it.
+1. Click on the VBScript file (*ends with .vbs*) in https://github.com/AtonFreson/SolidWorks_License_Auto-Deactivator/releases to download it.
 2. Double-click the VBScript file to run it.
     - Accept any admin privilege requests, etc. 
     - It will prompt for the main SOLIDWORKS Corp installation folder.
@@ -24,5 +24,6 @@ Changes while running the script are possible. Do this by editing *\<SOLIDWORKS 
 - Change *pollSeconds* and *windowDelay* if you're on a slow computer or if you want to speed up the process.
 - To make the script work in your language, *ctrl+f* replace *"Next >"* with what's written on the same button in your language, as well as the *"Select All"* button. See the image below.
     - The automation works by 'pressing' the button with the text *"Next >"* in the 'SOLIDWORKS Product Activation' Wizard, then *"Select All"*, and lastly *"Next >"* again.
+- **Pressing the Spacebar key will stop the deactivation process**. This is a feature that stops the deactivation in-case accidental deactivation was initiated, e.g. if SolidWorks crashed or the user plans to continue using the software. The *'SOLIDWORKS Product Activation'* Wizard will still open.
 
 ![Image of what button that has "Next" written on it in the English language SolidWorks.](https://i.imgur.com/KPhdSvo.png)
