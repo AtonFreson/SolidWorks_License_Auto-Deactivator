@@ -20,12 +20,12 @@ The Wizard will be left on the **"Deactivation Successful"** page afterwards, so
     - The default folder is: `C:\Program Files\SOLIDWORKS Corp`
 
 ### Additional information:
-Changes while running the script are possible. Do this by editing *\<SOLIDWORKS Corp\>/Scripts/SWActivationWatcher.ps1*. Edits take effect after a PC reboot.
+Changes while running the script are possible. Do this by editing `\<SOLIDWORKS Corp\>/Scripts/SWActivationWatcher.ps1`. Edits take effect after a PC reboot.
 - Afther it has been initiated, **holding down the Spacebar key will stop the deactivation process**.
     - This is a feature that stops the deactivation in-case accidental deactivation was initiated, e.g. if SolidWorks crashed or the user plans to continue using the software. The *'SOLIDWORKS Product Activation'* Wizard will still open.
 - Change *pollSeconds* and *windowDelay* if you're on a slow computer or if you want to speed up the process.
 - To make the script work in your language, *ctrl+f* replace *"Next >"* with what's written on the same button in your language, as well as the *"Select All"* button. See the image below.
     - The automation works by 'pressing' the button with the text *"Next >"* in the 'SOLIDWORKS Product Activation' Wizard, then *"Select All"*, and lastly *"Next >"* again.
-- Errors are logged in "C:\ProgramData\SWActivationWatcher.txt".
+- Errors are logged in `C:\ProgramData\SWActivationWatcher.txt`.
 
 ![Image of what button that has "Next" written on it in the English language SolidWorks.](https://i.imgur.com/KPhdSvo.png)
