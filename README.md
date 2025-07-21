@@ -20,7 +20,7 @@ The Wizard will be left on the **"Deactivation Successful"** page afterwards, so
     - The default folder is: `C:\Program Files\SOLIDWORKS Corp`
 
 ### Additional information:
-Changes while running the script are possible. Do this by editing `<SOLIDWORKS Corp>/Scripts/SWActivationWatcher.ps1`. Edits take effect after a PC reboot.
+Changes while running the script are possible. Do this by editing `<Your 'SOLIDWORKS Corp' Folder>/Scripts/SWActivationWatcher.ps1`. Edits take effect after a PC reboot.
 - Afther it has been initiated, **holding down the Spacebar key will stop the deactivation process**.
     - This is a feature that stops the deactivation in-case accidental deactivation was initiated, e.g. if SolidWorks crashed or the user plans to continue using the software. The *'SOLIDWORKS Product Activation'* Wizard will still open.
 - Change *pollSeconds* and *windowDelay* if you're on a slow computer or if you want to speed up the process.
