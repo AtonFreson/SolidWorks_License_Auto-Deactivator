@@ -21,7 +21,7 @@ The Wizard will be left on the **"Deactivation Successful"** page afterwards, so
 
 ### Additional information:
 Changes while running the script are possible. Do this by editing *\<SOLIDWORKS Corp\>/Scripts/SWActivationWatcher.ps1*. Edits take effect after a PC reboot.
-- **Pressing the Spacebar key will stop the deactivation process**.
+- Afther it has been initiated, **holding down the Spacebar key will stop the deactivation process**.
     - This is a feature that stops the deactivation in-case accidental deactivation was initiated, e.g. if SolidWorks crashed or the user plans to continue using the software. The *'SOLIDWORKS Product Activation'* Wizard will still open.
 - Change *pollSeconds* and *windowDelay* if you're on a slow computer or if you want to speed up the process.
 - To make the script work in your language, *ctrl+f* replace *"Next >"* with what's written on the same button in your language, as well as the *"Select All"* button. See the image below.
